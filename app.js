@@ -3,7 +3,7 @@
 document.querySelector('.get-jokes').addEventListener('click', getJokes);
 
 function getJokes(e) {
-  const number = document.getElementById('number').value;
+  const number = document.querySelector('input[type = "number"]').value;
 
   const xhr = new XMLHttpRequest();
 
